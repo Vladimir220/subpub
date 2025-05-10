@@ -1,0 +1,25 @@
+mode: set
+subpub/simple_subpub.go:17.41,19.2 1 1
+subpub/simple_subpub.go:21.54,23.40 2 1
+subpub/simple_subpub.go:23.40,25.3 1 1
+subpub/simple_subpub.go:26.2,26.49 1 1
+subpub/simple_subpub.go:26.49,28.3 1 1
+subpub/simple_subpub.go:29.2,29.16 1 1
+subpub/simple_subpub.go:32.64,42.2 6 1
+subpub/simple_subpub.go:44.128,49.6 4 1
+subpub/simple_subpub.go:49.6,54.10 4 1
+subpub/simple_subpub.go:55.28,56.10 1 1
+subpub/simple_subpub.go:57.24,59.10 2 1
+subpub/simple_subpub.go:60.11,60.11 0 1
+subpub/simple_subpub.go:63.3,64.37 2 1
+subpub/simple_subpub.go:64.37,67.4 2 1
+subpub/simple_subpub.go:68.3,68.18 1 1
+subpub/simple_subpub.go:72.92,82.2 6 1
+subpub/simple_subpub.go:84.57,85.9 1 1
+subpub/simple_subpub.go:86.20,89.38 3 1
+subpub/simple_subpub.go:89.38,91.4 1 1
+subpub/simple_subpub.go:92.3,92.17 1 1
+subpub/simple_subpub.go:93.37,94.53 1 1
+subpub/simple_subpub.go:96.2,96.12 1 1
+subpub/simple_subscription.go:7.55,9.2 1 1
+subpub/subpub.go:26.25,28.2 1 1
