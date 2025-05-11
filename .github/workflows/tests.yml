@@ -1,0 +1,24 @@
+name: Tests
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  test:
+    name: tests
+    runs-on: ubuntu-latest
+
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout
+
+      - name: Set up Go
+        uses: actions/setup-go
+        with:
+          go-version: '1.24.0'
+
+
+      - name: Run tests
+        run: go test ./subpub_lib/simple_subpub_test.go
