@@ -21,4 +21,4 @@ jobs:
 
 
       - name: Run tests
-        run: go test ./subpub_lib/simple_subpub_test.go
+        run: go test ./subpub_lib/...
