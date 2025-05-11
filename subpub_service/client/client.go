@@ -34,7 +34,7 @@ func main() {
 
 	go func() {
 		time.Sleep(time.Second * 5)
-		client.Publish(ctx, &subpub_service.PublishRequest{Key: "Огонь", Data: "Это же феерверк!"})
+		client.Publish(ctx, &subpub_service.PublishRequest{Key: "Огонь", Data: "Это же фейерверк!"})
 		time.Sleep(time.Second * 1)
 		client.Publish(ctx, &subpub_service.PublishRequest{Key: "Огонь", Data: "Ого!"})
 		time.Sleep(time.Second * 1)
