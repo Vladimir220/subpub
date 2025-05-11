@@ -75,8 +75,9 @@ func (sp *SimpleSubpub) Subscribe(subject string, cb MessageHandler) (Subscripti
 	newDataSignal := sp.notifications[subject]
 
 	go sp.listener(subject, cb, unsubscribeSignal, newDataSignal)
+	subSignal := sp.notifications[subject]
 
-	subscription := &SimpleSubscription{unsubscribeSignal: unsubscribeSignal}
+	subscription := &SimpleSubscription{unsubscribeSignal: unsubscribeSignal, subSignal: subSignal}
 	return subscription, nil
 }
 
