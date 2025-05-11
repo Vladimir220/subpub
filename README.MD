@@ -22,6 +22,10 @@
 ```
 go get github.com/Vladimir220/subpub/subpub_lib 
 ```
+Для запуска тестов выполните слшедующую команду из папки ``` subpub_lib ```:
+```
+go test .
+```
 
 ### Запуск сервера подписок ###
 - Перейдите в папку subpub_service: ``` cd subpub_service ```
